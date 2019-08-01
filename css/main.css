@@ -1,0 +1,224 @@
+
+
+    /*font-family: 'Montserrat', sans-serif;*/
+
+    /*font-family: 'Source Code Pro', monospace;*/
+
+    /****** BASE STYLES *******/
+    body {
+      font-family: 'Montserrat', sans-serif;
+      color: #ffffff;
+    }
+
+    h2 {
+      font-family: 'Source Code Pro', monospace;
+      color: #fa0075;
+      font-size: 36pt;
+      text-align: center;
+      padding: 30px 0;
+      margin: 0;
+    }
+
+    p {
+      font-family: 'Montserrat', sans-serif;
+      color: #ffffff;
+      font-size: 24pt;
+    }
+
+    #portfolio {
+      height: 1550px;
+      clear: both;
+    }
+
+    #contact {
+      height: 400px;
+    }
+
+    /******* GRID ************/
+    .full-width {
+      width: 1400px;
+      margin: 0 auto;
+      background-color: #1f202b;
+    }
+
+    .half-width {
+      width: 700px;
+      float: left;
+      background-color: #1f202b;
+    }
+
+    .third-width {
+      width: 466px;
+      float: left;
+      text-align: center;
+      background-color: #1f202b;
+    }
+
+    .small-width {
+      width: 100px;
+    }
+    /********** HEADER SECTION ******/
+    header .full-width {
+      height: 800px;
+    }
+
+    header #main-title {
+      clear: left;
+      background: url("../img/hero-background.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    header h1 {
+      font-family: 'Source Code Pro', monospace;
+      font-size: 72pt;
+      font-weight: 600;
+      padding: 250px 0 0 100px;
+    }
+
+    header h1 span {
+      color: #fa0075;
+    }
+
+    header h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 32px;
+      color: #ffffff;
+      padding: 20px 25px;
+      text-align: left;
+    }
+
+    nav {
+      float: right;
+      padding: 5px 25px;
+    }
+
+    nav ul li {
+      display: inline-block;
+    }
+
+    nav ul li a {
+      font-size: 32px;
+      font-weight: 600;
+      color: #ffffff;
+      padding-left: 45px;
+      text-decoration: none;
+      text-transform: lowercase;
+    }
+
+    /**** Portfolio Section ******/
+    #portfolio .half-width {
+      height: 1440px;
+    }
+    .portfolio-box-pic {
+      border-width: 1px;
+      border-color: #b7b7b7;
+      height: 400px;
+      width: 550px;
+      margin: 30px 0 0 100px;
+      display: inline-block;
+      text-align: left;
+    }
+
+    .leftside-portfolio-box-pic {
+      border-width: 1px;
+      border-color: #b7b7b7;
+      height: 400px;
+      width: 550px;
+      margin: 40px 0 0 100px;
+      display: inline-block;
+      text-align: left;
+    }
+    .rightside-portfolio-box-pic {
+      border-width: 1px;
+      border-color: #b7b7b7;
+      height: 450px;
+      width: 550px;
+      margin: 40px 0 0 50px;
+      display: inline-block;
+      text-align: left;
+    }
+    .portfolio-box-text {
+      height: 420px;
+      width: 550px;
+      margin: 20px 0 0 50px;
+      display: inline-block;
+      text-align: left;
+    }
+
+    #leftside-port-box {
+      height: 430px;
+      width: 550px;
+      margin: 40px 0 0 100px;
+      display: inline-block;
+      text-align: right;
+    }
+
+    #portfolio h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24pt;
+      font-weight: bold;
+      margin: 0px;
+    }
+
+    #portfolio p {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24pt;
+      font-weight: normal;
+      margin: 0 0 20px 0;
+    }
+
+/******About Section*******/
+    #about {
+      background: url("../img/about-me.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      height: 550px;
+    }
+
+    #about h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24pt;
+      font-weight: bold;
+      margin: 0 0 0 100px;
+      color: #1f202b;
+    }
+
+    #about p {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24pt;
+      font-weight: normal;
+      color: #1f202b;
+      margin: 30px 500px 0 100px;
+    }
+
+/**********Contact Section********/
+
+    #contact ul li {
+      display: inline-block;
+      margin: 0 0 0 60px;
+      float: left;
+    }
+
+    #contact a {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24pt;
+      text-decoration: none;
+      color: #ffffff;
+    }
+
+    #contact h3 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 24pt;
+      font-weight: bolder;
+      color: #ffffff;
+    }
+
+    #contact h4 {
+      clear: both;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18pt;
+      color: #ffffff;
+      text-align: center;
+      padding: 50px;
+    }
